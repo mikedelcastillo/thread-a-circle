@@ -1,0 +1,34 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+}
+
+#svg{
+  width: 100vmin;
+}
+
+.circle{
+  r: 5px;
+  fill: white;
+  cursor: pointer;
+  transition: all 1s;
+  z-index: 100;
+  opacity: 0.2
+}
+
+.circle:hover{
+  r: 20px;
+  transition: all 0.2s;
+  z-index: 200;
+  opacity: 1
+}
+
+.line{
+  stroke: white;
+  fill: none;
+}
